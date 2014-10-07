@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="polargrid.svg"
+   inkscape:version="0.48.3.1 r9886"
+   version="1.1"
+   id="svg2"
+   height="3000"
+   width="4000"
+   inkscape:export-filename="/users/schilly/Dokumente/up++/up++.github.io/www/img/polargrid.png"
+   inkscape:export-xdpi="45"
+   inkscape:export-ydpi="45">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.0875"
+     inkscape:cx="4303.857"
+     inkscape:cy="757.83279"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1060"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="2000,3000"
+       id="guide6150" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1000,1000"
+       id="guide6152" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,1947.6378)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g14326"
+       transform="translate(2040.3039,-461.52337)"
+       inkscape:label="Grid_Polar:R4:A10">
+      <g
+         inkscape:label="Grid_Polar:R6:A10"
+         transform="matrix(0.99833611,0,0,0.99833749,-40.3039,513.88141)"
+         id="g15677">
+        <g
+           id="g6079"
+           transform="translate(0,0.00416693)"
+           inkscape:label="Grid_Polar:R3:A5">
+          <circle
+             d="M 1000,0 C 1000,552.28475 552.28475,1000 0,1000 -552.28475,1000 -1000,552.28475 -1000,0 c 0,-552.28475 447.71525,-1000 1000,-1000 552.28475,0 1000,447.71525 1000,1000 z"
+             id="circle6081"
+             cy="0"
+             r="1000"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:5"
+             inkscape:label="MajorDivCircle1:R1000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="1000"
+             sodipodi:ry="1000" />
+          <circle
+             d="M 800,0 C 800,441.8278 441.8278,800 0,800 -441.8278,800 -800,441.8278 -800,0 c 0,-441.8278 358.1722,-800 800,-800 441.8278,0 800,358.1722 800,800 z"
+             id="circle6083"
+             cy="0"
+             r="800"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle1:R1000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="800"
+             sodipodi:ry="800" />
+          <circle
+             d="M 600,0 C 600,331.37085 331.37085,600 0,600 -331.37085,600 -600,331.37085 -600,0 c 0,-331.37085 268.62915,-600 600,-600 331.37085,0 600,268.62915 600,600 z"
+             id="circle6085"
+             cy="0"
+             r="600"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle1:R1000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="600"
+             sodipodi:ry="600" />
+          <circle
+             d="M 400,0 C 400,220.9139 220.9139,400 0,400 -220.9139,400 -400,220.9139 -400,0 c 0,-220.9139 179.0861,-400 400,-400 220.9139,0 400,179.0861 400,400 z"
+             id="circle6087"
+             cy="0"
+             r="400"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle1:R1000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="400"
+             sodipodi:ry="400" />
+          <circle
+             d="m 200,0 c 0,110.45695 -89.54305,200 -200,200 -110.45695,0 -200,-89.54305 -200,-200 0,-110.45695 89.54305,-200 200,-200 110.45695,0 200,89.54305 200,200 z"
+             id="circle6089"
+             cy="0"
+             r="200"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle1:R1000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="200"
+             sodipodi:ry="200" />
+          <circle
+             d="m 2000,0 c 0,1104.5695 -895.4305,2000 -2000,2000 -1104.5695,0 -2000,-895.4305 -2000,-2000 0,-1104.5695 895.4305,-2000 2000,-2000 1104.5695,0 2000,895.4305 2000,2000 z"
+             id="circle6091"
+             cy="0"
+             r="2000"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:5"
+             inkscape:label="MajorDivCircle2:R2000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="2000"
+             sodipodi:ry="2000" />
+          <circle
+             d="M 1800,0 C 1800,994.11255 994.11255,1800 0,1800 -994.11255,1800 -1800,994.11255 -1800,0 c 0,-994.11255 805.88745,-1800 1800,-1800 994.11255,0 1800,805.88745 1800,1800 z"
+             id="circle6093"
+             cy="0"
+             r="1800"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle2:R2000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="1800"
+             sodipodi:ry="1800" />
+          <circle
+             d="M 1600,0 C 1600,883.6556 883.6556,1600 0,1600 -883.6556,1600 -1600,883.6556 -1600,0 c 0,-883.6556 716.3444,-1600 1600,-1600 883.6556,0 1600,716.3444 1600,1600 z"
+             id="circle6095"
+             cy="0"
+             r="1600"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle2:R2000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="1600"
+             sodipodi:ry="1600" />
+          <circle
+             d="M 1400,0 C 1400,773.19865 773.19865,1400 0,1400 -773.19865,1400 -1400,773.19865 -1400,0 c 0,-773.19865 626.80135,-1400 1400,-1400 773.19865,0 1400,626.80135 1400,1400 z"
+             id="circle6097"
+             cy="0"
+             r="1400"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle2:R2000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="1400"
+             sodipodi:ry="1400" />
+          <circle
+             d="M 1200,0 C 1200,662.7417 662.7417,1200 0,1200 -662.7417,1200 -1200,662.7417 -1200,0 c 0,-662.7417 537.2583,-1200 1200,-1200 662.7417,0 1200,537.2583 1200,1200 z"
+             id="circle6099"
+             cy="0"
+             r="1200"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle2:R2000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="1200"
+             sodipodi:ry="1200" />
+          <circle
+             d="M 3000,0 C 3000,1656.8542 1656.8542,3000 0,3000 -1656.8542,3000 -3000,1656.8542 -3000,0 c 0,-1656.8542 1343.1458,-3000 3000,-3000 1656.8542,0 3000,1343.1458 3000,3000 z"
+             id="circle6101"
+             cy="0"
+             r="3000"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:5"
+             inkscape:label="MajorDivCircle3:R3000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="3000"
+             sodipodi:ry="3000" />
+          <circle
+             d="M 2800,0 C 2800,1546.3973 1546.3973,2800 0,2800 -1546.3973,2800 -2800,1546.3973 -2800,0 c 0,-1546.3973 1253.6027,-2800 2800,-2800 1546.3973,0 2800,1253.6027 2800,2800 z"
+             id="circle6103"
+             cy="0"
+             r="2800"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle3:R3000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="2800"
+             sodipodi:ry="2800" />
+          <circle
+             d="M 2600,0 C 2600,1435.9403 1435.9403,2600 0,2600 -1435.9403,2600 -2600,1435.9403 -2600,0 c 0,-1435.9403 1164.0597,-2600 2600,-2600 1435.9403,0 2600,1164.0597 2600,2600 z"
+             id="circle6105"
+             cy="0"
+             r="2600"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle3:R3000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="2600"
+             sodipodi:ry="2600" />
+          <circle
+             d="M 2400,0 C 2400,1325.4834 1325.4834,2400 0,2400 -1325.4834,2400 -2400,1325.4834 -2400,0 c 0,-1325.4834 1074.5166,-2400 2400,-2400 1325.4834,0 2400,1074.5166 2400,2400 z"
+             id="circle6107"
+             cy="0"
+             r="2400"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle3:R3000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="2400"
+             sodipodi:ry="2400" />
+          <circle
+             d="m 2200,0 c 0,1215.0264 -984.9736,2200 -2200,2200 -1215.0264,0 -2200,-984.9736 -2200,-2200 0,-1215.0264 984.9736,-2200 2200,-2200 1215.0264,0 2200,984.9736 2200,2200 z"
+             id="circle6109"
+             cy="0"
+             r="2200"
+             cx="0"
+             style="fill:none;stroke:#000000;stroke-width:3"
+             inkscape:label="MinorDivCircle3:R3000.0"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="2200"
+             sodipodi:ry="2200" />
+          <path
+             id="path6111"
+             d="M 0,0 0,3000"
+             style="fill:none;stroke:#000000;stroke-width:5"
+             inkscape:label="RadialGridline0"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path6113"
+             d="M 0,0 2853.1695,927.05098"
+             style="fill:none;stroke:#000000;stroke-width:5"
+             inkscape:label="RadialGridline1"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path6115"
+             d="M 0,0 1763.3558,-2427.051"
+             style="fill:none;stroke:#000000;stroke-width:5"
+             inkscape:label="RadialGridline2"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path6117"
+             d="M 0,0 -1763.3558,-2427.051"
+             style="fill:none;stroke:#000000;stroke-width:5"
+             inkscape:label="RadialGridline3"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path6119"
+             d="M 0,0 -2853.1695,927.05098"
+             style="fill:none;stroke:#000000;stroke-width:5"
+             inkscape:label="RadialGridline4"
+             inkscape:connector-curvature="0" />
+          <circle
+             d="M 0.5,0 C 0.5,0.27614237 0.27614237,0.5 0,0.5 -0.27614237,0.5 -0.5,0.27614237 -0.5,0 c 0,-0.27614237 0.22385763,-0.5 0.5,-0.5 0.27614237,0 0.5,0.22385763 0.5,0.5 z"
+             id="circle6121"
+             cy="0"
+             r="0.5"
+             cx="0"
+             style="fill:#000000;stroke:#000000;stroke-width:0"
+             inkscape:label="CentreDot"
+             sodipodi:cx="0"
+             sodipodi:cy="0"
+             sodipodi:rx="0.5"
+             sodipodi:ry="0.5" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
