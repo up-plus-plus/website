@@ -21,6 +21,9 @@ $screen-large: 1140px
 html
   font-family: 'Merriweather Sans', sans-serif
 
+a, a:visited, a:active
+  color: black
+
 .logo
   position: absolute
   z-index: 100
@@ -33,13 +36,15 @@ html
   background: white
   +border-radius(15vw)
   +shadow(0px 5px 10px #222)
+  &:hover
+    +shadow(0px 7px 15px #000)
 
 
 .logo > img
-  min-width: 20vh
-  min-height: 20vh
-  max-height: 15vw
-  max-width: 15vw
+  width: 20vh
+  height: 20vh
+  max-height: 20vw
+  max-width: 20vw
   border: 1px solid white
   padding: 5vw
 
@@ -106,6 +111,10 @@ a.join
   color: black
   +border-radius(10px)
   +shadow(0px 5px 10px #222)
+  &:hover
+    color: white
+    background: black
+    +shadow(0px 7px 15px #000)
 
 footer
   position: relative
