@@ -1,20 +1,27 @@
+-# coding: utf8
 !!! 5
 %html
   %head
+    %meta(http-equiv = 'Content-Type'  content = 'text/html; charset=utf-8')
+    %meta(name="viewport" content="width=device-width, initial-scale=1")
+    %meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
     %link(rel="stylesheet" type="text/css" href="static/style.css")
-
+    %link(href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,400italic,700italic,700' rel='stylesheet' type='text/css')
   %body
-    %div.topbar
-      TOPBAR
+    %a.logo(href="https://www.github.com/up-plus-plus")
+      %img(src="img/up++logo.png")
 
     %div.parallax
       %div.parallax_background
-        %img.logo(src="img/up++logo.png")
 
       %div.parallax_foreground
-        %div.title title goes here
 
-        %div.title This is the foreground
+        %div.title
+          %div
+            Your Vision for Your City
 
+          %a.join(href="https://www.github.com/up-plus-plus") Join Now
 
+        %footer
+          %a(href="imprint.html")Imprint
 

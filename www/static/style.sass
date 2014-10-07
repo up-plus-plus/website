@@ -1,20 +1,47 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+// @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700)
+
+$screen-small: 480px
+$screen-medium: 768px
+$screen-large: 1140px
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+=shadow($style)
+  -webkit-box-shadow:  $style
+  -moz-box-shadow:  $style
+  box-shadow: $style
+
 
 @import normalize
 
 html
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif
 
-body
-  font: 100% / 1.5 Arial
-
-.topbar
+.logo
   position: absolute
   z-index: 100
-  top: 1vh
-  font-size: 80%
-  text-align: center
-  width: 100%
+  //border: 5px solid green
+  overflow: auto
+  overflow-y: hidden
+  top: 10vh
+  left: 50vw
+  transform: translate(-50%, 0%)
+  background: white
+  +border-radius(15vw)
+  +shadow(0px 5px 10px #222)
+
+
+.logo > img
+  min-width: 20vh
+  min-height: 20vh
+  max-height: 15vw
+  max-width: 15vw
+  border: 1px solid white
+  padding: 5vw
 
 
 .parallax 
@@ -36,16 +63,17 @@ body
   +parallax_layer
   transform: translateZ(0)
   margin-top: 75vh
-  border: 1px solid red
+  //border: 1px solid red
   background: white
+  +shadow(0px -10px 10px rgba(255, 255, 255, 0.50))
 
 .parallax_background
   +parallax_layer
-  transform: translateZ(-1px) scale(2)
+  transform: translateZ(-1px) scale(2.1)
   top: -20vh
   background:
     size: cover
-    image: url("../img/the-peak-243269.jpg")
+    image: url("../img/Guangzhou_dusk_panorama.jpg")
     position: center center
     repeat: no-repeat
 
@@ -53,22 +81,34 @@ body
 =center
   position: absolute
   left: 50%
-  top: 50%
-  transform: translate(-50%, -50%)
+  //top: 50%
+  transform: translate(-50%, 0%)
 
 .title
   +center
-  background: yellow
+  width: 100%
+  top: 55vh
+  text-align: center
+  background: transparent
+  line-height: 200%
+  //border: 1px solid red
+  font:
+    size: 250%
+    weight: bold
+  @media (max-width: $screen-medium)
+    font-size: 200%
+  @media (max-width: $screen-small)
+    font-size: 150%
 
-.logo
-  top: 0
-  position: absolute
-  left: 50%
-  -webkit-transform: translate(-50%, 0)
-  transform: translate(-50%, 0%)
-  background: blue
-  width: 10vw
-  height: 10vh
+a.join
+  background: white
+  padding: 15px
+  color: black
+  +border-radius(10px)
+  +shadow(0px 5px 10px #222)
 
-
+footer
+  position: relative
+  bottom: 1vh
+  +center
 
