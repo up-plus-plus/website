@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = git@github.com:up-plus-plus/up-plus-plus.github.io.git
