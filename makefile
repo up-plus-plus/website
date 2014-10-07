@@ -4,9 +4,9 @@ HAML=haml --style ugly
 CSS=$(filter-out www/static/_%.css, $(patsubst %.sass,%.css,$(wildcard www/static/*.sass)))
 HTML=$(patsubst %.haml,%.html,$(wildcard www/*.haml))
 
-.PHONY=build clean publish
+.PHONY=build clean publish graphics
 
-build: clean $(CSS) $(HTML)
+build: clean graphics $(CSS) $(HTML)
 
 %.css: %.sass
 	$(SASS) $<:$@
@@ -18,6 +18,14 @@ clean:
 	-$(RM) $(HTML)
 	-$(RM) static/*.css
 	-$(RM) static/*.css.map
+
+www/img/polargrid-nq8.png: www/img/polargrid.png
+	cd www/img; pngnq -v -f -Q f -s 1 -n 10 polargrid.png
+
+www/img/up++logo-nq8.png: www/img/up++logo.png
+	cd www/img; pngnq -v -f -Q f -s 1 -n 20 up++logo.png
+
+graphics: www/img/polargrid-nq8.png www/img/up++logo-nq8.png
 
 publish: build
 	cp CNAME output

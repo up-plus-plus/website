@@ -21,8 +21,12 @@ $screen-large: 1140px
 html
   font-family: 'Merriweather Sans', sans-serif
 
+body
+  width: 100%
+
 a, a:visited, a:active
   color: black
+  text-decoration: none
 
 .logo
   position: absolute
@@ -47,13 +51,22 @@ a, a:visited, a:active
   max-width: 20vw
   border: 1px solid white
   padding: 5vw
+  @media (max-width: $screen-medium)
+    width: 25vh
+    height: 25vh
+    max-height: 25vw
+    max-width: 25vw
+  @media (max-width: $screen-small)
+    width: 30vh
+    height: 30vh
+    max-height: 30vw
+    max-width: 30vw
 
 
 .parallax
   height: 100vh
   overflow-x: hidden
   overflow-y: auto
-  -webkit-perspective: 1px
   perspective: 1px
 
 =parallax_layer
@@ -72,14 +85,14 @@ a, a:visited, a:active
   // background: white
   background:
     size: cover
-    image: url("../img/polargrid.png.jpeg")
+    image: url("../img/polargrid-nq8.png")
     position: center center
     repeat: no-repeat
   +shadow(0px -15px 15px rgba(255, 255, 255, 0.50))
 
 .parallax_background
   +parallax_layer
-  transform: translateZ(-1px) scale(2.1)
+  transform: translateZ(-1px) scale(2)
   top: -10vh
   background:
     size: cover
@@ -118,6 +131,8 @@ footer>a
 a.join, .title>div>span
   background: white
   padding: 15px
+  @media (max-width: $screen-small)
+    padding: 5px
   color: black
   +border-radius(10px)
   +shadow(0px 5px 10px #222)
