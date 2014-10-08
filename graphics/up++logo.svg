@@ -13,9 +13,9 @@
    height="1000"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="up++logo.svg"
-   inkscape:export-filename="/home/harri/d/up++/up++.github.io/www/img/up++logo.png"
+   inkscape:export-filename="/users/schilly/Dokumente/up++/up++.github.io/www/img/up++logo.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -27,16 +27,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="362.89773"
-     inkscape:cy="520.33727"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="498.21825"
+     inkscape:cy="321.98566"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1056"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-height="1060"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="false"
@@ -80,7 +80,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -134,7 +134,7 @@
        sodipodi:nodetypes="cccccc" />
     <path
        style="color:#000000;fill:#bcd35f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:50;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 200,852.36215 100,100 100,0 0,100.00005 -300,0 0,-100.00005 z"
+       d="m 200,892.36215 100,60 100,0 0,100.00005 -300,0 0,-100.00005 z"
        id="rect3876"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
