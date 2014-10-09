@@ -39,6 +39,10 @@ a, a:visited, a:active
   transform: translate(-50%, 0%)
   background: white
   +border-radius(15vw)
+  @media (max-width: $screen-medium)
+    +border-radius(20vw)
+  @media (max-width: $screen-small)
+    +border-radius(25vw)
   +shadow(0px 5px 10px #222)
   &:hover
     +shadow(0px 7px 15px #000)
@@ -56,11 +60,13 @@ a, a:visited, a:active
     height: 25vh
     max-height: 25vw
     max-width: 25vw
+    padding: 7vw
   @media (max-width: $screen-small)
     width: 30vh
     height: 30vh
     max-height: 30vw
     max-width: 30vw
+    padding: 10vw
 
 
 .parallax
@@ -68,6 +74,7 @@ a, a:visited, a:active
   overflow-x: hidden
   overflow-y: auto
   perspective: 1px
+  width: 100%
 
 =parallax_layer
   position: absolute
@@ -80,7 +87,7 @@ a, a:visited, a:active
 .parallax_foreground
   +parallax_layer
   transform: translateZ(0)
-  margin-top: 90vh
+  margin-top: 76.4vh
   //border: 1px solid red
   // background: white
   background:
