@@ -3,23 +3,24 @@ HAML=haml --style ugly
 
 CSS=$(filter-out www/static/_%.css, $(patsubst %.sass,%.css,$(wildcard www/static/*.sass)))
 HTML=$(patsubst %.haml,%.html,$(wildcard www/*.haml))
-JSMIN=www/static/up++.min.js
+#JSMIN=www/static/up++.min.js
 JS=www/static/up++.js
 
-.PHONY=build clean publish graphics js
+.PHONY=build clean publish graphics
 
 build: clean graphics $(CSS) $(HTML) $(JSMIN)
 
 %.css: %.sass
 	$(SASS) $<:$@
 
-$(JSMIN): $(JS)
-	uglifyjs -c -m --screw-ie8 $(JS) -o $(JSMIN)
+#$(JSMIN): $(JS)
+#	uglifyjs -c -m --screw-ie8 $(JS) -o $(JSMIN)
 
 %.html: %.haml
 	$(HAML) $< $@
 
 clean:
+	-$(RM) -r output/*
 	-$(RM) $(HTML)
 	-$(RM) $(JSMIN)
 	-$(RM) www/static/*.css
@@ -34,10 +35,11 @@ www/img/up++logo-nq8.png: www/img/up++logo.png
 graphics: www/img/polargrid-nq8.png www/img/up++logo-nq8.png
 
 publish: build
+	mkdir -p output
 	cp CNAME output
 	cp $(HTML) output
 	mkdir -p output/static
-	cp $(CSS) www/static/*.min.js output/static
+	cp $(CSS) $(JS) output/static
 	mkdir -p output/img
 	cp $(wildcard www/img/*) output/img
 	cd output; git add -A; git commit -m "published `date --iso=minutes`"; git push origin master
