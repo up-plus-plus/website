@@ -16,8 +16,8 @@ build: clean graphics $(CSS) $(HTML)
 
 clean:
 	-$(RM) $(HTML)
-	-$(RM) static/*.css
-	-$(RM) static/*.css.map
+	-$(RM) www/static/*.css
+	-$(RM) www/static/*.css.map
 
 www/img/polargrid-nq8.png: www/img/polargrid.png
 	-cd www/img; pngnq -v -f -Q f -s 1 -n 10 polargrid.png
@@ -31,7 +31,7 @@ publish: build
 	cp CNAME output
 	cp $(HTML) output
 	mkdir -p output/static
-	cp $(CSS) output/static
+	cp $(CSS) www/static/*.js output/static
 	mkdir -p output/img
 	cp $(wildcard www/img/*) output/img
 	cd output; git add -A; git commit -m "published `date --iso=minutes`"; git push origin master

@@ -15,7 +15,6 @@ $screen-large: 1140px
   -moz-box-shadow:  $style
   box-shadow: $style
 
-
 @import normalize
 
 html
@@ -29,7 +28,7 @@ a, a:visited, a:active
   text-decoration: none
 
 .logo
-  position: absolute
+  position: fixed
   z-index: 100
   //border: 5px solid green
   overflow: auto
@@ -69,12 +68,12 @@ a, a:visited, a:active
     padding: 10vw
 
 
-.parallax
+body
   height: 100vh
   overflow-x: hidden
   overflow-y: auto
-  perspective: 1px
-  width: 100%
+  // perspective: 1px
+  width: 100vw
 
 =parallax_layer
   position: absolute
@@ -86,7 +85,7 @@ a, a:visited, a:active
 
 .parallax_foreground
   +parallax_layer
-  transform: translateZ(0)
+  // transform: translateZ(0)
   margin-top: 76.4vh
   //border: 1px solid red
   // background: white
@@ -99,7 +98,7 @@ a, a:visited, a:active
 
 .parallax_background
   +parallax_layer
-  transform: translateZ(-1px) scale(2)
+  // transform: translateZ(-1px) scale(2)
   top: -10vh
   background:
     size: cover
