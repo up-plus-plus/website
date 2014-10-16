@@ -1,4 +1,6 @@
-
+//! UP++ Code for the www.uppp.eu website
+//! Copyright: UP++ Authors
+//! License: Apache 2.0
 
 uppp = {
   "init" : function() {
@@ -7,6 +9,10 @@ uppp = {
           background.style.top = (evt.pageY / 2) + "px";
       });
   }
-}
+};
 
-uppp.init();
+document.onreadystatechange = function () {
+    if (document.readyState == "interactive") {
+        uppp.init();
+    }
+};
