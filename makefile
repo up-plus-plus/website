@@ -36,10 +36,10 @@ graphics: www/img/polargrid-nq8.png www/img/up++logo-nq8.png
 publish: build
 	-$(RM) -r output/*
 	mkdir -p output
-	cp CNAME output
-	cp $(HTML) output
+	cp -v CNAME output
+	cp -v $(HTML) output
 	mkdir -p output/static
-	cp $(CSS) $(JS) output/static
+	cp -v $(CSS) $(JS) output/static
 	mkdir -p output/img
-	cp $(wildcard www/img/*) output/img
+	cp -vr $(wildcard www/img/*) output/img
 	cd output; git add -A; git commit -m "published `date --iso=minutes`"; git push origin master
