@@ -20,7 +20,6 @@ build: clean graphics $(CSS) $(HTML) $(JSMIN)
 	$(HAML) $< $@
 
 clean:
-	-$(RM) -r output/*
 	-$(RM) $(HTML)
 	-$(RM) $(JSMIN)
 	-$(RM) www/static/*.css
@@ -35,6 +34,7 @@ www/img/up++logo-nq8.png: www/img/up++logo.png
 graphics: www/img/polargrid-nq8.png www/img/up++logo-nq8.png
 
 publish: build
+	-$(RM) -r output/*
 	mkdir -p output
 	cp CNAME output
 	cp $(HTML) output

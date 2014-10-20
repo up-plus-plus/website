@@ -5,8 +5,10 @@
 uppp = {
   "init" : function() {
       var background = document.querySelector("div.parallax_background");
+      var bkg_offset = background.getBoundingClientRect().top;
+      console.log(bkg_offset);
       window.addEventListener("scroll", function (evt) {
-          background.style.top = (evt.pageY / 2) + "px";
+          background.style.top = bkg_offset + (evt.pageY / 2) + "px";
       });
   }
 };
